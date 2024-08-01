@@ -1,0 +1,22 @@
+----------------------------
+general information
+----------------------------
+stock name: TSLA
+number of train epochs: 690
+number of features: 39
+the sequences that trained on at this time: [2, 3, 4, 5, 6, 10, 25, 30]
+
+--------------------
+model information
+---------------------
+filter_num: 16
+dilation_rate: 4
+kernel_size: 3
+padding: same
+pool_size: 2
+lstm_num: {0: 500, 1: 500, 2: 400, 3: 200}
+
+-------------------
+the test result------------------
+the loss on test set is: 0.0781814381480217
+the accuracy on test set is: 0.0833333358168602

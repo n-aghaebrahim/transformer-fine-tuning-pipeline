@@ -1,0 +1,39 @@
+Model: "model_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_14 (InputLayer)       [(None, 25, 1, 39, 1)]    0         
+                                                                 
+ time_distributed_12 (TimeDi  (None, 25, 1, 39, 16)    160       
+ stributed)                                                      
+                                                                 
+ time_distributed_13 (TimeDi  (None, 25, 624)          0         
+ stributed)                                                      
+                                                                 
+ lstm_30 (LSTM)              (None, 25, 500)           2250000   
+                                                                 
+ dropout_30 (Dropout)        (None, 25, 500)           0         
+                                                                 
+ lstm_31 (LSTM)              (None, 25, 500)           2002000   
+                                                                 
+ dropout_31 (Dropout)        (None, 25, 500)           0         
+                                                                 
+ lstm_32 (LSTM)              (None, 25, 400)           1441600   
+                                                                 
+ dropout_32 (Dropout)        (None, 25, 400)           0         
+                                                                 
+ lstm_33 (LSTM)              (None, 25, 200)           480800    
+                                                                 
+ dropout_33 (Dropout)        (None, 25, 200)           0         
+                                                                 
+ lstm_34 (LSTM)              (None, 100)               120400    
+                                                                 
+ dropout_34 (Dropout)        (None, 100)               0         
+                                                                 
+ dense_6 (Dense)             (None, 4)                 404       
+                                                                 
+=================================================================
+Total params: 6,295,364
+Trainable params: 6,295,364
+Non-trainable params: 0
+_________________________________________________________________

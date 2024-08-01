@@ -1,0 +1,7 @@
+----------------------------
+general information
+----------------------------
+stock name: TSLA
+number of train epochs: 690
+number of features: 39
+the sequences that trained on at this time: [2, 3, 4, 5, 6, 10, 25, 30]
