@@ -107,7 +107,7 @@ The `scripts/train_model.sh` script trains the machine learning models on the pr
 
 ## Demo
 
-[Click here to watch a video demonstration of the chatbot](media/your-video-file.mp4)
+[Click here to watch a video demonstration of the chatbot](Final_project_s.mp4)
 
 ![Chatbot Demo](media/demo.gif)
 
