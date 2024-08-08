@@ -1,4 +1,3 @@
-# transformer-fine-tuning-pipeline
 # Stock Advisory Analysis Using Large Language Models
 
 This project leverages the power of large language models (LLMs) like OpenAI's GPT-3.5 to fine-tune and create a comprehensive stock advisory analysis system. The project encompasses data cleaning, exploratory data analysis (EDA), model training, and an interactive chatbot interface to provide detailed stock market insights and predictions.
@@ -17,6 +16,7 @@ This project leverages the power of large language models (LLMs) like OpenAI's G
   - [Preprocess Data](#preprocess-data)
   - [Train Model](#train-model)
 - [License](#license)
+- [Demo](#demo)
 
 ## Overview
 
@@ -104,6 +104,12 @@ The `scripts/train_model.sh` script trains the machine learning models on the pr
     ```bash
     bash scripts/train_model.sh
     ```
+
+## Demo
+
+[Click here to watch a video demonstration of the chatbot](media/your-video-file.mp4)
+
+![Chatbot Demo](media/demo.gif)
 
 ## License
 
