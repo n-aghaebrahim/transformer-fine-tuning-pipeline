@@ -75,12 +75,12 @@ The `Data Cleaning` notebook includes data cleaning and feature engineering. Thi
 
 1. Open the notebook in Jupyter:
     ```bash
-    jupyter notebook "Data Cleaning.ipynb"
+    jupyter notebook "notebooks/Data Cleaning.ipynb"
     ```
 The 'Exploratory Data Analysis' notebook includes exploratory data analysis and visualization. This notebook is used for analyzing the data before training the models.
 1. Open the notebook in Jupyter:
     ```bash
-    jupyter notebook "Exploratory Data Analysis.ipynb"
+    jupyter notebook "notebooks/Exploratory Data Analysis.ipynb"
     ```
     
 
