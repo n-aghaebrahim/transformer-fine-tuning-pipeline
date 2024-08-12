@@ -58,16 +58,9 @@ The `chatbot.py` script sets up an interactive chatbot using Gradio and OpenAI's
     python chatbot.py
     ```
 
-### Data Formation for Training
 
-The `data_formation_for_training.py` script processes stock data, summarizes it, and prepares it for training machine learning models. This script is part of the backend data preparation process.
 
-1. Run the data formation script:
-    ```bash
-    python src/data/data_formation_for_training.py
-    ```
-
-### Data Cleaning and EDA
+### Data Cleaning and Exploratory Data Analysis
 
 The `Data Cleaning` notebook includes data cleaning and feature engineering. This notebook is used for preprocessing athe data before exploratory data analysis.
 
@@ -77,13 +70,23 @@ The `Data Cleaning` notebook includes data cleaning and feature engineering. Thi
     ```bash
     jupyter notebook "notebooks/Data Cleaning.ipynb"
     ```
+
+2. Outputs of data cleaning include: 'data/AAPL_MasterData- 2018-2023.csv' & 'data/merged_apple_articles_with_sentiment.csv'
+   
 The 'Exploratory Data Analysis' notebook includes exploratory data analysis and visualization. This notebook is used for analyzing the data before training the models.
 1. Open the notebook in Jupyter:
     ```bash
     jupyter notebook "notebooks/Exploratory Data Analysis.ipynb"
     ```
     
+### Data Formation for Training
 
+The `data_formation_for_training.py` script processes stock data, summarizes it, and prepares it for training machine learning models. This script is part of the backend data preparation process.
+
+1. Run the data formation script:
+    ```bash
+    python src/data/data_formation_for_training.py
+    ```
 ## Scripts
 
 ### Download Data
