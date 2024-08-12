@@ -69,12 +69,20 @@ The `data_formation_for_training.py` script processes stock data, summarizes it,
 
 ### Data Cleaning and EDA
 
-The `Data Cleaning & EDA.ipynb` notebook includes data cleaning, exploratory data analysis, and visualization. This notebook is used for preprocessing and analyzing the data before training the models.
+The `Data Cleaning` notebook includes data cleaning and feature engineering. This notebook is used for preprocessing athe data before exploratory data analysis.
+
+![Data Cleaning Workflow](media/simplified_workflow_diagram.png)
 
 1. Open the notebook in Jupyter:
     ```bash
-    jupyter notebook "Data Cleaning & EDA.ipynb"
+    jupyter notebook "Data Cleaning.ipynb"
     ```
+The 'Exploratory Data Analysis' notebook includes exploratory data analysis and visualization. This notebook is used for analyzing the data before training the models.
+1. Open the notebook in Jupyter:
+    ```bash
+    jupyter notebook "Exploratory Data Analysis.ipynb"
+    ```
+    
 
 ## Scripts
 
