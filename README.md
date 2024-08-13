@@ -81,6 +81,8 @@ The 'Exploratory Data Analysis' notebook includes exploratory data analysis and 
 ### Model Design/Building
 
 Path model_from_scratch/conv2dlstm_2
+The architecture of the model is based on a combination of Conv2D and LSTM layers. It leverages both spatial and temporal patterns to make accurate stock price predictions. The model configuration can be adjusted in the config_run.py file.
+
 #### Modules Description
 
 1. **`config_run.py`**: This module is responsible for configuring the entire prediction process. It allows you to select whether to train, predict, or update the model. You can also define the model's architecture, hyperparameters, and data selection preferences in this file.
@@ -107,6 +109,13 @@ The `data_formation_for_training.py` script processes stock data, summarizes it,
     ```bash
     python src/data/data_formation_for_training.py
     ```
+
+### Model Analysis
+The results are compiled 
+1. apple_stock_train_data.json, apple_stock_train_data.jsonl, 
+2. apple_stock_val_data.json, apple_stock_val_data.jsonl
+3. stock_data_analysis.json, stock_data_analysis_val.json
+
 ## Scripts
 
 ### Download Data
