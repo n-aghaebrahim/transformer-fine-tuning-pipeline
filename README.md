@@ -109,6 +109,11 @@ The `data_formation_for_training.py` script processes stock data, summarizes it,
     ```bash
     python src/data/data_formation_for_training.py
     ```
+### Model Optimization
+Previous Transformer Model was trained on GPT-2. We then started using GPT-3.5 and yielded superior results. 
+
+Path - Deprecate Transformers_Model_Financials_and_News_Corpus.ipynb
+
 
 ### Model Analysis
 The results are compiled 
