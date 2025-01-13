@@ -3,7 +3,7 @@ import json
 from openai import OpenAI
 
 # Set your OpenAI API key
-client = OpenAI(api_key='sk-None-lWf579FvEQUJbg6EAjWYT3BlbkFJv1pnFpxdh2pJV52yXP4k')
+client = OpenAI(api_key='xxxxx')
 
 # Load the CSV file into a pandas DataFrame
 df = pd.read_csv('AAPL_MasterData-2018-2023.csv')
